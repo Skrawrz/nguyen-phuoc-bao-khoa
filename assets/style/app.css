@@ -3,7 +3,7 @@
 }
 .container{
     height: 350px;
-    width: 1125px;
+    width: 1070px;
     left: 160px;
     top:100px;
     padding: 120px 134px 120px 134px;
@@ -74,7 +74,7 @@
     margin-top: 50px;
     background: #043673;
     height: auto;
-    width: 1334px;
+    width: 1274px;
     border: 1px solid white;
     padding: 80px;
     padding-right: 30px;
@@ -115,52 +115,57 @@
     float: right;
     margin-top: 25px;
 }
-.content2{
+.pic-dau .content2{
     display: inline-block;
 }
 .content2 .pic1{
-    height: 700px;
-    width: 600px;
+    height: 420px;
+    width: 300px;
 }
 .content2 .para1{
-    font-size: 20px;
+    font-size: 11px;
+}
+.pic-dau .content3{
+    display: inline-block;
 }
 .content3{
     float: right;
 }
 .content3 .pic2{
-    height: 700px;
-    width: 600px;
+    height: 420px;
+    width: 300px;
 }
 .content3 .para2{
-    font-size: 20px;
+    font-size: 11px;
 }
 .pic-dau{
-    margin-left: auto;
+    margin-right: 75px;
 }
-.content4{
+.pic-sau .content4{
     display: inline-block;
 }
 .content4 .pic3{
-    height: 700px;
-    width: 600px;
+    height: 420px;
+    width: 300px;
 }
 .content4 .para3{
-    font-size: 20px;
+    font-size: 11px;
+}
+.pic-sau .content5{
+    display: inline-block;
 }
 .content5{
     float: right;
-   display: flex;
 }
 .content5 .pic4{
-    height: 700px;
-    width: 600px;
+    height: 420px;
+    width: 300px;
 }
 .content5 .para4{
-    font-size: 20px;
-}
+    font-size: 11px;
+}    
 .pic-sau{
-    margin-right: auto;
+    margin-right: 75px;
 }
 .header3 h2{
     color:black;
@@ -177,13 +182,13 @@
     display: inline-block;
 }
 .noidung .nd1{
-    width: 375px;
+    width: 360px;
     height: 450px;
     background: #FFFFFF;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.05);
     padding-left: 50px;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 .noidung .nd1 p{
     width: 344px;
@@ -197,9 +202,9 @@
  .noidung .nd2{
     display: inline-block;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 50px;
     padding-left: 50px;
-    width: 375px;
+    width: 360px;
     height: 450px;
     background: #FFFFFF;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.05);
@@ -230,13 +235,13 @@
     height: 145px;
 }
 .noidung .nd3{
-    width: 375px;
+    width: 360px;
     height: 450px;
     background: #FFFFFF;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.05);
     display: inline-block;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 50px;
     padding-left: 50px;
 }
 .noidung .nd3 h4{
@@ -254,21 +259,27 @@
     height: 145px;
 }
 .noidung .nd4{
-    width: 375px;
+    width: 360px;
     height: 450px;
     background: #FFFFFF;
     box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.05);
     padding-left: 50px;
     display: inline-block;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 .noidung .nd4 h4{
     display: inline-block;
 }
 .button{
     display: inline-block;
-    gap: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.line{
+
+    margin-top: 20px;
+    padding-left: 10px;
 }
 
 
