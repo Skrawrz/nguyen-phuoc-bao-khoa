@@ -31,6 +31,4 @@ import 'modules/ADAMenu'
 import 'modules/ModCarouselSlide'
 import 'modules/ADA'
 
-import 'modules/Slickslider'
-
 console.log('App desktop')

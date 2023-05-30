@@ -14,8 +14,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Source Sans Pro', 'serif'],
-      body: ['Jost', 'sans-serif'],
-      plus: ['Plus Jakarta Sans', 'sans-serif']
+      body: ['Jost', 'sans-serif']
     },
     screens: configs.Screes,
     extend: {
