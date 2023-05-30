@@ -1,7 +1,7 @@
 import 'slick-carousel/slick/slick'
 // // js Custom
 import 'modules/FixHeight'
-
+import 'modules/Slickslider'
 import 'modules/BrowserDetection'
 import 'modules/CheckDevice'
 import 'modules/ConvertSvg'
