@@ -16,7 +16,7 @@ import 'modules/Menu'
 import 'modules/AnimationScrollPage'
 import 'modules/ConvertSvg'
 
-
+import 'modules/SlickSlider'
 
 
 // //ADA support ADA
@@ -30,5 +30,7 @@ import 'modules/TabList'
 import 'modules/ADAMenu'
 import 'modules/ModCarouselSlide'
 import 'modules/ADA'
+
+
 
 console.log('App desktop')

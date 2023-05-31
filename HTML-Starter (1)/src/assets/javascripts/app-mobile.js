@@ -29,4 +29,6 @@ import 'modules/ADAMenu'
 import 'modules/ModCarouselSlide'
 import 'modules/ADA'
 
+import 'modules/SlickSlider'
+
 console.log('App mobile')
