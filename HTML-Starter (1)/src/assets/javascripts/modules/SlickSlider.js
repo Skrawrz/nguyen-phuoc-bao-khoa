@@ -15,11 +15,12 @@ export default class SlickSlider {
         dots:true,
         slidesToShow:3,
         dotsClass:'dotsC',
-        prevArrow: '<button class="slick-prev arrows h1 text-primary-100"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
-        nextArrow: '<button class="slick-next arrows h1 text-primary-100"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>'
+        prevArrow: '<button class="slick-prev arrows h1 text-blue-800"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
+        nextArrow: '<button class="slick-next arrows h1 text-blue-800"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>'
       })
     }
   }
   new SlickSlider().init()
-  console.log('aaa')
-  
+
+
+ 

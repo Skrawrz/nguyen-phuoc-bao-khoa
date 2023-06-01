@@ -10,7 +10,6 @@
   position: absolute;
   top: 110%;
   display: flex;
-  color: #043673;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -87,4 +86,7 @@
       display: none;
     }
   }
+}
+.slider-item{
+  box-shadow: 0px 0px 70px rgba(0,0,0,0.05);       
 }
