@@ -15,8 +15,7 @@
   border: none;
   transform: translate(0, -50%);
   z-index: 11;
-  @apply md:top-250;
-  @apply lg:top-230;
+  @apply md:top-230;
 }
 
 .slick-prev {
@@ -43,10 +42,9 @@
   text-align: center;
   list-style: none;
   gap: 65px;
-  @apply md:top-270;
+  @apply md:top-250;
   @apply md:left-170;
   @apply lg:-left-30;
-  @apply lg:top-250;
   li {
     position: relative;
     display: inline-block;
