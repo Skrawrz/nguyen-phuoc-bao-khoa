@@ -19,20 +19,22 @@
 }
 
 .slick-prev {
-  left: 300px;
+  left: 200px;
+  @apply sm:left-180;
   @apply md:left-310;
   @apply lg:left-0;
 }
 
 .slick-next {
-  left: 350px;
+  left: 250px;
+  @apply sm:left-200;
   @apply md:left-340;
   @apply lg:left-20;
 }
 
 .dotsC {
   position: absolute;
-  left: 10px;
+  left: -90px;
   bottom: -25px;
   display: flex;
   width: 30%;
@@ -42,6 +44,7 @@
   text-align: center;
   list-style: none;
   gap: 65px;
+  @apply sm:left-20;
   @apply md:top-250;
   @apply md:left-170;
   @apply lg:-left-30;
