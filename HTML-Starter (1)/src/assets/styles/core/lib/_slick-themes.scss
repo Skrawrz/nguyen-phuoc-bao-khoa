@@ -4,41 +4,49 @@
 /* Icons */
 
 /* Arrows */
-
-.slick-prev,
+.mod-SlickSlider{
+  .slick-prev,
 .slick-next {
   position: absolute;
-  top: 105%;
+  top:5%;
   display: flex;
   cursor: pointer;
   background: transparent;
   border: none;
   transform: translate(0, -50%);
   z-index: 11;
+  @apply md:top-250;
+  @apply lg:top-230;
 }
 
 .slick-prev {
-  left: 25px;
+  left: 300px;
+  @apply md:left-310;
+  @apply lg:left-0;
 }
 
-
 .slick-next {
-  left: 60px;
+  left: 350px;
+  @apply md:left-340;
+  @apply lg:left-20;
 }
 
 .dotsC {
   position: absolute;
-  left: -55px;
+  left: 10px;
   bottom: -25px;
   display: flex;
   width: 30%;
-  top:110%;
+  top:15%;
   padding: 1;
   margin: 0;
   text-align: center;
   list-style: none;
   gap: 65px;
- 
+  @apply md:top-270;
+  @apply md:left-170;
+  @apply lg:-left-30;
+  @apply lg:top-250;
   li {
     position: relative;
     display: inline-block;
@@ -89,4 +97,6 @@
 }
 .slider-item{
   box-shadow: 0px 0px 200px rgba(0,0,0,0.05);       
+}
+
 }
