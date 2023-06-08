@@ -20,6 +20,15 @@ export default class SlickSlider {
         nextArrow: '<button class="slick-next arrows h1 text-blue-800"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>',
         responsive: [
           {
+            breakpoint: 319,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll:1,
+              infinite: true,
+              dots: true,
+            }
+          },
+          {
             breakpoint: 413,
             settings: {
               slidesToShow: 1,
