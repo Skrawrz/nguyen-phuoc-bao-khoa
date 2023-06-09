@@ -19,14 +19,14 @@
 }
 
 .slick-prev {
-  left: 200px;
+  left: 150px;
   @apply sm:left-180;
   @apply md:left-310;
   @apply lg:left-0;
 }
 
 .slick-next {
-  left: 250px;
+  left: 200px;
   @apply sm:left-200;
   @apply md:left-340;
   @apply lg:left-20;
@@ -34,7 +34,7 @@
 
 .dotsC {
   position: absolute;
-  left: -90px;
+  left: -20px;
   bottom: -25px;
   display: flex;
   width: 30%;
@@ -43,10 +43,11 @@
   margin: 0;
   text-align: center;
   list-style: none;
-  gap: 65px;
-  @apply sm:left-20;
+  gap: 30px;
+  @apply sm:gap-25;
+  @apply sm:left-40;
   @apply md:top-250;
-  @apply md:left-170;
+  @apply md:left-190;
   @apply lg:-left-30;
   li {
     position: relative;
@@ -68,7 +69,7 @@
 
       &::after {
         content: "";
-        @apply absolute w-30 h-0p5 top-0 right-0 left-0 block rounded-full bg-blue-800;
+        @apply absolute w-20 sm:w-30 h-0p5 top-0 right-0 left-0 block rounded-full bg-blue-800;
         transition: 0.3s;
         transform: translateX(50%) translateY(50%);
       }
@@ -80,7 +81,7 @@
         &::after {
           // height: 5px;
           // top: -1px;
-          @apply bg-blue-600 h-1p5 w-35;
+          @apply bg-blue-600 h-1p5 w-20 sm:w-30;
         }
 
       }
