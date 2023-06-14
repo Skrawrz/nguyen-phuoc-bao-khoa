@@ -1,0 +1,15 @@
+{% extends 'layouts/application.html' %}
+{% block bodyClass %}class="page-home has-animation"{% endblock %}
+
+{% block content %}
+<main id="main-content" class="main-content pt-40">
+    {% include 'modules/mod-banner.html' %}
+    {% include 'modules/mod-column4.html' %}
+    <!-- {% include 'modules/mod-SlickSlider2.html' %} -->
+    {% include 'modules/mod-column.html' %}
+    {% include 'modules/mod-SlickSlider.html' %}
+    {% include 'modules/mod-column2.html' %}
+    {% include 'modules/mod-column3.html' %}
+</main>
+
+{% endblock %}
