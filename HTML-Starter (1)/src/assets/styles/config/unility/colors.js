@@ -14,7 +14,8 @@ const Colors = {
 
   gray: {
     100: '#eaeaea',
-    200: '#f8f8f8'
+    200: '#f8f8f8',
+    300: '#f5f8fA'
   },
   blue: {
     100: '#1d4f91',

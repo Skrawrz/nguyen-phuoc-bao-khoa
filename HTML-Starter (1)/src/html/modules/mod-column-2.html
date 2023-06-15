@@ -1,0 +1,35 @@
+<section>
+    <div class="container">
+        <div class="lg:row lg:px-9 ">
+            <div class="lg:w-1/2">
+                <div class="w-full text-left mt-3 ">
+                    <h3 class=" md:text-lg lg:text-xl xl:text-2xl">Meet the Quest product line headline</h3>
+                </div>
+            </div>
+            <div class="lg:w-1/2">
+                <div class="w-full lg:text-right mt-3 xl:mt-7">
+                    <a class="text-blue-600 no-underline " href="#">Compare all Quest adjustable bases <img class="inline" src="assets/images/Vector.svg" alt=""></a> 
+                </div>
+            </div>    
+        </div>
+        <div class="row pt-10 lg:pt-0">
+            {% for i in column %}
+            <div class="w-full md:w-1/2 px-8">
+                <img src="{{i.Image}}" alt="">
+                <div class=" text-left py-18 px-15 lg:px-0">
+                    <h4>{{i.Title}}</h4>
+                    <div class="text-blue-500">
+                        <p>{{i.Subheadline}}</p>
+                    </div>
+                    <div class="text-blue-500">
+                        <p>{{i.Description}}</p>
+                    </div>
+                    <div>
+                        <a class="text-blue-600 no-underline" href="">{{i.Button.text}} <img class="inline" src="{{i.Button.Image2}}" alt=""></a>  
+                    </div>    
+                </div> 
+            </div>
+            {%endfor%}
+        </div>
+    </div>
+</section>        
