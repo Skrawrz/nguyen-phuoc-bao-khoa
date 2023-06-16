@@ -22,7 +22,7 @@ module.exports = {
       keyframes: {
         opacity: {
           'from': { opacity: '0' },
-          'to': { opacity: '1' }
+          'to': { opacity: '1' }  
         }
       },
       animation: {
