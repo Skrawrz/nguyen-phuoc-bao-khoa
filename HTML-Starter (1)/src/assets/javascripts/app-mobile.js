@@ -30,5 +30,6 @@ import 'modules/ModCarouselSlide'
 import 'modules/ADA'
 
 import 'modules/SlickSlider'
+import 'modules/SlickLife'
 
 console.log('App mobile')

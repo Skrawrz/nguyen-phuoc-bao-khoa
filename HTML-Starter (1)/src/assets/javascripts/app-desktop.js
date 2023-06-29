@@ -17,6 +17,7 @@ import 'modules/AnimationScrollPage'
 import 'modules/ConvertSvg'
 
 import 'modules/SlickSlider'
+import 'modules/SlickLife'
 
 
 // //ADA support ADA
