@@ -11,27 +11,27 @@
   }
   h1,
   .h1 {
-    @apply text-h1 font-bold md:text-h1-md;
+    @apply text-18 font-bold md:text-21 2xl:text-36;
   }
 
   h2,
   .h2 {
-    @apply text-h2 font-bold md:text-h2-md;
+    @apply text-15 font-bold md:text-15 2xl:text-24;
   }
 
   h3,
   .h3 {
-    @apply text-h3 font-bold md:text-h3-md;
+    @apply text-13 md:text-12 2xl:text-18;
   }
 
   h4,
   .h4 {
-    @apply text-h4;
+    @apply text-11 md:text-10 2xl:text-12.5;
   }
 
   h5,
   .h5 {
-    @apply text-h5 font-bold;
+    @apply text-10 font-bold md:text-9 2xl:text-10;
   }
 
   h6,
@@ -41,7 +41,6 @@
   small {
     @apply text-sm;
   }
-
   h1,
   h2,
   h3,
@@ -72,8 +71,13 @@
   ul{
     @apply list-disc;
   }
-  p {
-    @apply mb-15;
+  p,
+  .p {
+    @apply text-8 mb-14;
+  }
+  p,
+  .pb {
+    @apply text-8 font-bold mb-14;
   }
 }
 
@@ -106,3 +110,9 @@ table{
     @apply font-bold;
 }
 }
+
+
+
+
+
+

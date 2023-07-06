@@ -15,41 +15,49 @@
   border: none;
   transform: translate(0, -50%);
   z-index: 11;
-  @apply md:top-250;
+  @apply md:top-260;
+  @apply lg:top-240;
+  @apply xl:top-250;
+  @apply 2xl:top-310;
 }
 
 .slick-prev {
-  left: 230px;
+  left: 280px;
+  @apply sm:left-170;
   @apply md:left-310;
-  @apply lg:left-20;
+  @apply lg:left-400;
   @apply xl:left-50;
 }
 
 .slick-next {
-  left: 250px;
+  left: 330px;
+  @apply sm:left-200;
   @apply md:left-340;
-  @apply lg:left-40;
-  @apply xl:left-70;
+  @apply lg:left-430;
+  @apply xl:left-80;
 }
 
 .dotsC {
   position: absolute;
-  left: 20px;
+  left: 120px;
   bottom: -25px;
   display: flex;
   width: 30%;
-  top:15%;
+  top:75px;
   padding: 1;
   margin: 0;
   text-align: center;
   list-style: none;
   gap: 30px;
   @apply sm:gap-25;
-  @apply sm:left-40;
-  @apply md:top-270;
+  @apply sm:left-50;
+  @apply md:top-290;
   @apply md:left-190;
-  @apply lg:-left-10;
+  @apply lg:top-260;
+  @apply lg:left-285;
   @apply xl:left-20;
+  @apply xl:top-270;
+  @apply 2xl:top-350;
   li {
     position: relative;
     display: inline-block;
