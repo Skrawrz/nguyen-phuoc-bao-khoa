@@ -1,0 +1,12 @@
+.bg-content{
+    background-color: blue;
+    animation-name: animation-bg;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation-bg {
+    0%   {background-color: purple;}
+    25%  {background-color: burlywood;}
+    50%  {background-color: red;}
+    100% {background-color: green;}
+  }

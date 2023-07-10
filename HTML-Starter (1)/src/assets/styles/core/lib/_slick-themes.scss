@@ -16,15 +16,15 @@
   transform: translate(0, -50%);
   z-index: 11;
   @apply md:top-260;
-  @apply lg:top-240;
-  @apply xl:top-250;
-  @apply 2xl:top-310;
+  @apply lg:top-220;
+  @apply xl:top-240;
+  @apply 2xl:top-230;
 }
 
 .slick-prev {
   left: 280px;
   @apply sm:left-170;
-  @apply md:left-310;
+  @apply md:left-320;
   @apply lg:left-400;
   @apply xl:left-50;
 }
@@ -51,13 +51,12 @@
   gap: 30px;
   @apply sm:gap-25;
   @apply sm:left-50;
-  @apply md:top-290;
+  @apply md:top-280;
   @apply md:left-190;
-  @apply lg:top-260;
+  @apply lg:top-240;
   @apply lg:left-285;
   @apply xl:left-20;
-  @apply xl:top-270;
-  @apply 2xl:top-350;
+  @apply xl:top-260;
   li {
     position: relative;
     display: inline-block;

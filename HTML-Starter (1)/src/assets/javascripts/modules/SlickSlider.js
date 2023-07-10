@@ -16,8 +16,8 @@ export default class SlickSlider {
         mobileFirst: true,
         slidesToShow:3,
         dotsClass:'dotsC',
-        prevArrow: '<button class="slick-prev arrows h1 text-blue-600"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
-        nextArrow: '<button class="slick-next arrows h1 text-blue-600"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>',
+        prevArrow: '<button class="slick-prev arrows h2 text-blue-600"><span class="icomoon icon-chevron-left"></span><span class="sr-only">Prev slider</span></button>',
+        nextArrow: '<button class="slick-next arrows h2 text-blue-600"><span class="icomoon icon-chevron-right"></span><span class="sr-only">Next slider</span></button>',
         responsive: [
           {
             breakpoint: 319,

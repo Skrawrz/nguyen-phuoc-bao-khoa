@@ -267,6 +267,11 @@ h6 {
 .social,
 #modal,
 .hamburger-menu,
-.form-contact, {
+.form-contact {
   display: none;
 }
+
+.module-wrap{
+  @apply mt-50
+}
+

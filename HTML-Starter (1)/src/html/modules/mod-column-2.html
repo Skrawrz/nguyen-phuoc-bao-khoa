@@ -2,22 +2,22 @@
     <div class="container">
         <div class="lg:row lg:px-9 ">
             <div class="lg:w-2/3">
-                <div class="text-left mt-3 pr-4 xl:pr-0 ">
+                <div class="text-left mt-3 pr-4 xl:pr-0">
                     <h2>Meet the Quest product line headline</h2>
                 </div>
             </div>
             <div class="lg:w-1/3">
                 <div class="w-full lg:text-right mt-3 lg:pt-6 xl:pt-7 2xl:pt-15">
-                    <a class="text-blue-600 no-underline " href="#">Compare all Quest adjustable bases <img class="inline" src="assets/images/Vector.svg" alt=""></a> 
+                    <a class="text-blue-600 no-underline" href="#"><strong>Compare all Quest adjustable bases</strong><img src="{{imagesBase64}}" width="25" height="10" class="lazy inline pl-4" data-src="assets/images/Vector.svg" alt="#"></a> 
                 </div>
             </div>    
         </div>
         <div class="row pt-10 lg:pt-0">
             {% for i in column %}
             <div class="w-full md:w-1/2 px-8">
-                <img src="{{i.Image}}" alt="">
+                <img src="{{imagesBase64}}" width="390" height="10" class="lazy w-full" data-src="{{i.Image}}" alt="#">
                 <div class=" text-left py-18 px-15 lg:px-0">
-                    <h5>{{i.Title}}</h5>
+                    <h3>{{i.Title}}</h3>
                     <div class="text-blue-500 font-bold">
                         <p>{{i.Subheadline}}</p>
                     </div>
@@ -25,7 +25,7 @@
                         <p>{{i.Description}}</p>
                     </div>
                     <div>
-                        <a class="text-blue-600 no-underline" href="">{{i.Button.text}} <img class="inline" src="{{i.Button.Image2}}" alt=""></a>  
+                        <a class="text-blue-600 no-underline" href="#"><strong>{{i.Button.text}}</strong> <img src="{{imagesBase64}}" width="25" height="10" class="lazy inline pl-4" data-src="{{i.Button.Image2}}" alt="#"></a>  
                     </div>    
                 </div> 
             </div>
