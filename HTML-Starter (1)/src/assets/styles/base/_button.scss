@@ -17,8 +17,8 @@
     @apply hover:bg-white hover:text-primary-100;
   }
   .btn-light {
-    @apply text-primary-100 border-white bg-white;
-    @apply hover:bg-transparent hover:text-white;
+    @apply text-black;
+    @apply hover:text-blue-800;
   }
   @media (prefers-reduced-motion){
     .btn{
